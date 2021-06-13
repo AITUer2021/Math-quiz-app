@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <title>Quiz</title>
+  </head>
+  <body>
+    <div id="app"></div>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+      function Tourist(FullName, Age, Country, Postal_code) {
+        let fullName, age, country, postal_code;
+        this.fullName = FullName;
+        this.age = Age;
+        this.country = Country;
+        this.postal_code = Postal_code;
+        let sayHi = function () {
+          if (this.age < 18) {
+            alert("Hello, my name is " + this.fullName + ", I am studying at school, I am from " + this.country + " and my postal code is " + thid.postal_code + ". I am " + this.age + " years old");
+          }
+          else if (this.age > 18 && this.age <= 30) {
+            alert("Hi bro, I’m " + this.fullName + ", I come from " + this.country + ". Send me a post to the " + this.postalCode + " I am " + this.age + " years old.");
+          }
+          else if (this.age > 30) {
+            alert("Hello every one, my country is " + this.country + " and my name is " + this.fullName + ". Bye.");
+          }
+        }
+      }
+      var Person = new Tourist("Eldiyar", 46, "Iraq", 42100);
+      Person.sayHi();</script>
+  </body>
+</html>
